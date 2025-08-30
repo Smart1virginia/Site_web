@@ -102,6 +102,34 @@ section {
 .about h2, .contact h2 {
     color: #4CAF50;
 }
+/* Contact */
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin: 15px 0;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-list a:hover {
+    color: #45a049;
+}
+
+.contact-icon {
+    width: 24px;
+    height: 24px;
+}
 
 /* Pied de page */
 footer {
@@ -119,3 +147,4 @@ ul {
 li {
     margin-bottom: 8px;
 }
+
